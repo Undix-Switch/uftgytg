@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Alongside Content</title>
+<style>
+    /* CSS styling for layout */
+    .container {
+        display: flex; /* Use flexbox layout */
+        align-items: center; /* Center items vertically */
+    }
+
+    .content {
+        flex: 1; /* Allow content to take up remaining space */
+        padding: 0 20px; /* Add padding for spacing */
+    }
+
+    .content p {
+        /* Example styling for paragraph text */
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .content img {
+        /* Example styling for image */
+        max-width: 100%; /* Ensure image doesn't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <img src="yoy/img3.png" alt="Description of the image">
+    <div class="content">
+        <h2>Title of Content</h2>
+        <p>This is some text that represents the content alongside the image. You can replace it with your own content.</p>
+        <p>You can add more paragraphs, headings, or other elements here as needed.</p>
+    </div>
+</div>
+
+</body>
+</html>
